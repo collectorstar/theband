@@ -80,9 +80,6 @@ html {
     margin-top: 16px !important;
 }
 
-#main {
-}
-
 #header {
     position: fixed;
     top: 0;
@@ -193,11 +190,6 @@ html {
 #slider .text-description{
     font-size: 15px;
     margin-top: 25px;
-}
-
-
-#content {
-
 }
 
 #content .content-section{
