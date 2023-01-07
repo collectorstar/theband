@@ -1,20 +1,32 @@
 /* pc */
-@media (min-width: 1024px){
-
-}
+@media (min-width: 1024px) {}
 
 /* tablet */
-@media (min-width: 740px) and (max-width: 1023px){
-
-}
+@media (min-width: 740px) and (max-width: 1023px) {}
 
 
 /* mobile */
-@media (max-width: 740px){
-    #nav > li{
+@media (max-width: 740px) {
+
+    #nav {
         display: block;
     }
-    #header .search-btn{
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-btn {
         display: none;
     }
+
+
 }
